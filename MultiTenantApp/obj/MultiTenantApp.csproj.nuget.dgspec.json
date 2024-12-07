@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/praveenparashar/Documents/coderepo/AI/multitenant/MultiTenantApp/MultiTenantApp.csproj": {}
+  },
+  "projects": {
+    "/Users/praveenparashar/Documents/coderepo/AI/multitenant/MultiTenantApp/MultiTenantApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/praveenparashar/Documents/coderepo/AI/multitenant/MultiTenantApp/MultiTenantApp.csproj",
+        "projectName": "MultiTenantApp",
+        "projectPath": "/Users/praveenparashar/Documents/coderepo/AI/multitenant/MultiTenantApp/MultiTenantApp.csproj",
+        "packagesPath": "/Users/praveenparashar/.nuget/packages/",
+        "outputPath": "/Users/praveenparashar/Documents/coderepo/AI/multitenant/MultiTenantApp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/praveenparashar/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.Identity.Web": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/3.1.426/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
