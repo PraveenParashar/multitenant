@@ -14,6 +14,13 @@ namespace MultiTenantApp.Middleware
 
         public async Task InvokeAsync(HttpContext context)
         {
+            // Skip tenant validation for tenant creation endpoint
+            if (context.Request.Path.StartsWithSegments("/api/tenant/create"))
+            {
+                await _next(context);
+                return;
+            }
+
             // Extract tenant information from the request
             var tenantId = context.Request.Headers["X-Tenant-ID"];
 
