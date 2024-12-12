@@ -44,3 +44,8 @@ artifacts/
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Sensitive configuration files
+appsettings.json
+appsettings.*.json
+!appsettings.template.json
